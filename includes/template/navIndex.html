@@ -1,0 +1,29 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="../../css/nav.css">
+    <div id="navContainer" style="background-color: black;">
+        <a href="http://www.matthammond.digital"><div id="leftNav">
+            <h3 style="color:white;">Matt Hammond</h3>
+            <p style="color:white;">Inspiration is the best form of motivation</p>
+        </div></a>
+        <div id="rightNav">
+            <ul class="topnav">
+                <li><a class="animatedScroll" data-link="body" style="cursor: pointer;"><h3>Home</h3></a></li>
+                <li><a class="animatedScroll" data-link="#filter"><h3>Portfolio</h3></a></li>
+                <li><a href="about.php"><h3>About</h3></a></li>
+                <li><a href="contact.php"><h3>Contact</h3></a></li>
+            </ul>
+             <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">
+                        <img src="../../img/menu.png">
+                    </a>
+                </li>
+        </div>
+    </div>
+    
+    <script>
+        function myFunction() {
+            document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+        }
+    </script>
+    <script src="../../js/animatedScroll.js"></script>
+</html>

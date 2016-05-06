@@ -1,0 +1,122 @@
+.feeds {
+    min-width: 960px;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feed-large {
+    background-color: #35495a;
+    width: 600px;
+    height: inherit;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.feed {
+    background-color: #35495a;
+    width: 350px;
+    height: inherit;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header {
+    background: rgba(78, 93, 108, 0.9);
+    height: 40px;
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: inherit;
+    position: absolute;
+}
+
+.posts-container {
+    width: 335px;
+    height: 545px;
+    min-height: 80px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.posts-container-large {
+    width: 550px;
+    height: 545px;
+    min-height: 80px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.post {
+    width: inherit;
+    min-height: 100px;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    color: #000;
+    background-color: #ddd;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#post-header {
+    height: 15px;
+    display: block;   
+}
+
+#post-db {
+    position: relative;
+    display: block;
+    text-align: left;
+    font-size: 12px; 
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#name {
+    text-align: left;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#club {
+    text-align: right;
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#time {
+    text-align: right;
+    font-size: 10px;
+    display: block;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.form {
+    width: 1060px;
+
+}
+
+#title {
+    margin-top: 5px;   
+}

@@ -1,0 +1,67 @@
+body{
+    padding-top: 40px;
+}
+.banner{
+    background-image: url(../img/banner.jpg);
+    height: 160px;
+    width: 100%;
+}
+
+
+
+
+#nights-out{
+    height: 400px;
+    background-color: grey;
+    margin-bottom: 15px;
+    width: 300px;
+    margin-right: 285px;
+
+}
+
+
+.nav ul {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 10px;
+
+}
+
+
+* {
+    margin: 0;
+}
+
+rss {
+display: block;
+font-family: verdana, arial;
+}
+title {
+display: block;
+margin: 5px;
+padding: 2px;
+color: gray;
+border-bottom: 1px solid silver;
+}
+link {
+display: block;
+font-size: small;
+padding-left: 10px;
+}
+item {
+display: block;
+padding: 2px 30px 2px 30px;
+}
+docs {
+display: block;
+background-color: #ffffe6;
+margin: 20px;
+text-align: center;
+padding: 5px;
+color: #7f7f7f;
+border: 1px solid silver;
+}
+/* all hidden elements */
+language, lastBuildDate, ttl, guid, category, description, pubDate {
+display: none;
+}

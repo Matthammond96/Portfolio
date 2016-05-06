@@ -1,0 +1,44 @@
+h3 {
+    color: black;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+#leftCon {
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 7.5%;
+}
+
+.pReset {
+    font-size: 0.8em;  
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.contactLogo {
+    width: 25px;
+    height: auto; 
+}
+
+#rightCon {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10%;
+    text-align: right;
+}
+
+#cvTitle {
+    text-align: right;
+}
+
+#cv {
+    width: 30%;   
+    margin-left: 30px;
+}

@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+#contentDirContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+#directory {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding-left: 10px;
+}
+
+#directory p {
+    font-size: 0.8em;   
+}
+
+#contentContainer {
+    padding-top: 25px;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.artworkWriteUp {
+    position: relative;
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.artworkImage {
+    margin-left: 5%;
+    position: relative;
+    width: 53%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*
+.artworkImage img {
+    width: 100%;
+    display: inline-block;
+}
+*/
+
+.artwork {
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+}
+
+#imageviewer img {
+    width: 100%;
+    height: auto;
+    
+}
+
+#imageviewer iframe {
+    width: 100%;
+    height: 69%;
+    
+}
+
+.videoCancel {
+    height: 50px;
+    width: 15%;
+    display: inline-block;
+}
+
+#imageviewer img {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.thumbnails {
+    height: 65px;
+    border: 1px solid #fafafa; 
+}
+
+.video {
+    height: 50px;
+    width: 100%;
+    z-index: -10;
+    border: 1px solid #fafafa; 
+}
+
+.artworkImage .active {
+    border: 1px solid black;   
+}
+
+@media screen and (max-width: 1000px) { 
+    .artworkImage {
+        display: block;   
+        padding-top: 10px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .artworkWriteUp {
+        display: block;
+        width: 100%;
+        border-bottom-color: black;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        padding-bottom: 10px;
+    }
+}
